@@ -5,49 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="css/add.css">
 </head>
 <body>
-    <center>
-        <div>
+    <header>
+        <div class="wrapper">
             <p>Loja do Tião</p>
+            <nav class="nav-wrapper">
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+                    <li><a href="add-produto.html">Adicionar Produto</a></li>
+                    <li><a href="funcionarios.html">Funcionários</a></li>
+                </ul>
+            </nav>
         </div>
-        
-        <div>
-            <a href="index.html">Página Inicial</a>
-            <a href="ctrl-estoque.html">Controle de Estoque</a>
-            <a href="add-produto.html">Adicionar Produto</a>
-            <a href="funcionarios.html">Funcionários</a>
-        </div>
-
-        
+    </header>
+    <section>
         <h2>Adicionar Produto</h2>
         <form action="">
-            <div>
-                <label for="link-foto">Link para foto: </label>
-                <input type="url" id="link-foto" name="link-foto">
-            </div>
-            
-            <div>
-                <label for="descricao">Descrição do produto: </label>
-                <input type="text" id="descricao" name="descrição">
-            </div>
-            
-            <div>
-                <label for="value">Preço (em R$): </label>
-                <input type="text" id="value" name="value">
-            </div>
-            
-            <div>
-                <label for="quantity">Quantidade disponível: </label>
-                <input type="number" id ="quantity" name="quantity">
-            </div>
+            <div class="container">
+                <div>
+                    <label for="link-foto">Link para foto: </label>
+                    <input type="url" id="link-foto" name="link-foto">
+                </div>
+                
+                <div>
+                    <label for="descricao">Descrição do produto: </label>
+                    <input type="text" id="descricao" name="descrição">
+                </div>
+                
+                <div>
+                    <label for="value">Preço (em R$): </label>
+                    <input type="text" id="value" name="value">
+                </div>
+                
+                <div>
+                    <label for="quantity">Quantidade disponível: </label>
+                    <input type="number" id ="quantity" name="quantity">
+                </div>
 
-            <div class="form-add">
-                <button type="submit">Adicionar</button>
+                <div class="form-add">
+                    <button type="submit">Adicionar</button>
+                </div>
             </div>
-
         </form>
-    </center>
+    </section>
+    <footer>
+        <p>Created by João Paulo</p>
+    </footer>
 
 </body>
 </html>

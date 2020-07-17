@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color:white;
+    color:black;
+    font-family: Verdana, sans-serif;
+}
+
+/* HEADER START */
+
+header {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    height: 65px;
+    display: inline-block;
+}
+
+header p {
+    font-weight: bold;
+    display: inline;
+    color:white;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-wrapper{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 0 2px; 
+}
+
+ul{
+    text-align: center;
+}
+
+nav ul li:hover{
+    border-bottom: 1px solid white;
+
+}
+
+/* HEADER END */
+
+/* SECTION START */
+
+section{
+    text-align: center;
+    background-color: white;
+    height: 80vh;
+}
+
+section h2{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* FORM START */
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+form div{
+    padding-bottom: 20px;
+}
+
+.container{
+    padding: 0;
+    height: 200px;
+    width: 500px;
+    text-align: left;
+}
+
+.form-add{
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+button{
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* FORM END */
+/* SECTION END */
+
+
+/* FOOTER START */
+
+footer p{
+    color: white;
+    padding-top: 21px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    height: 65px;
+    background-color: black;
+}
+
+/* FOOTER END */
