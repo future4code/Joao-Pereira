@@ -15,71 +15,87 @@ body{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.menu li a {
+/* NAV BAR START */
+
+header {
+    background: #333;
+    width: 100%;
+    position: relative;
+    height: 10vh;
+}
+
+.nav-wrapper {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav.nav-wrapper ul li {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 10px 10px;
+    
+}
+
+nav ul li a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
     letter-spacing: 1px;
-    padding: 0 20px;
     font-size: 14px;
-    line-height: 30px;
-    z-index: 1;
+    line-height: 22px;
     position: relative;
-}
-
-.menu li {
-    padding-top:8px;
-    list-style: none;
-    display: inline-block;
     border-bottom: 1px solid transparent;
-    border-bottom-width: 1px;
     transition: 0.3s;
-
 }
 
-.menu li:hover{
+
+
+nav.nav-wrapper ul li a:hover{
     border-bottom: 1px solid white;
     border-bottom-width: 1px;
 }
 
-.wrapper {
-    justify-content: center;
-    align-items: center;
-}
 
 nav{
-    margin:0 auto;
     width:100%;
-    position: relative;
     padding: 10px 25px ;
     text-align: right;
     background: #333;
-    z-index: 1;
-    display: inline-block;
 }
 
-div .logo{
+header .logo img{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    max-width: 70px;
 }
 
-#logo {
-    width: 5%;
-    float: left;
-    padding-left: 2px;
+
+/* NAV BAR END */
+
+/* MAIN START */
+
+main{
+    height: 78.5vh;
 }
 
 .container{
-    margin: 30px;
+    margin: 10px;
     display: flex;
 }
+
+/* FLEX-CONTAINER START */
 
 .flex-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 10px;
     padding: 30px;
     padding-bottom: 20px;
 }
@@ -91,20 +107,76 @@ div .logo{
     padding-bottom: 15px;
 }
 
+.flex-item h3{
+    font-weight:normal;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
 .flex-item p{
     text-align: center;
     font-size: 20px;
     padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+span {
+    color:rgb(69,82,91);
+    font-weight: bold;
+}
+
+.skills h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+.skills li{
+    text-align: left;
+    font-size: 16px;
+    padding-left: 50px;
+    list-style: none;
 }
 
 .flex-item img{
-    width: 100%;
-    border-radius: 50%
+    width: 70%;
+    border-radius: 50%;
 }
 
 .flex-item{
     text-align: center;
 }
+
+/* FLEX-CONTAINER END */
+
+/* FLEX-CONTAINER END */
+
+.flex-contact div{
+    
+    margin: 5px;
+    display: inline;
+}
+
+.linkedin-item img{
+    width: 40px;
+    border-radius: 20%;
+}
+
+.facebook-item img{
+    width: 40px;
+    border-radius: 20%;
+}
+
+.github-item img{
+    width: 40px;
+    border-radius: 20%;
+}
+
+/* FLEX-CONTAINER END */
+
+/* BOTTOM START */
 
 .contact{
     margin: 0 auto;
@@ -112,7 +184,7 @@ div .logo{
     vertical-align: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 83px;
+    padding-bottom: 63px;
 }
 
 .btn{
@@ -130,6 +202,7 @@ div .logo{
     color: white;
     background-color: rgb(93,193,193);
     transition: 0.3s;
+    border-radius: 100px;
 }
 
 .btn-contact{
@@ -142,6 +215,12 @@ div .logo{
     color: white;
     background-color: #333;
 }
+/* BOTTOM END */
+
+/* MAIN END */
+
+/* FOOTER START */
+
 footer{
     height: 10vh;
     background-color: #333;
@@ -150,4 +229,7 @@ footer{
     align-items: center;
     justify-content: center;
     padding-top: 22px;
+    font-size: 14px;
 }
+
+/* FOOTER END */
