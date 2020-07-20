@@ -50,6 +50,7 @@ div>p:first-child {
     display: block;
     margin: 0 auto;
     transition: 0.3s;
+    outline-style: none;
 }
 a{
     text-decoration: none;
@@ -99,7 +100,6 @@ a{
     width: 210px;
     margin: 0 auto;
     padding: 10px;
-
 }
 
 #container-de-descricao>ol {
@@ -164,6 +164,7 @@ td button {
     border: none;
     color: #333;
     font-weight: bold;
+    outline-style: none;
 }
 
 td button:hover{
@@ -187,6 +188,7 @@ td button:hover{
     font-size: 10px;
     color:  #333;
     font-weight: bold;
+    outline-style: none;
 }
 
 #back-button:hover {
