@@ -26,15 +26,12 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 40%;
+    margin-left:40px ;
 }
 
 div>p:first-child {
     display: inline-block;
-}
-
-div img {
-    background: black;
 }
 
 .botao-amarelo {
@@ -128,6 +125,10 @@ table tr td{
     justify-content: space-around;
     padding-right: 50px;
     padding-left: 50px;
+}
+
+table td img{
+    align: middle;
 }
 
 td button {
