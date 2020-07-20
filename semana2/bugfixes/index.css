@@ -120,6 +120,14 @@ div:last-child {
 
 table {
     width: 60%;
+    margin: 0 auto;
+}
+
+table tr td{
+    align-items: space-around;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 td button {
