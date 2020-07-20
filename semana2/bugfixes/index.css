@@ -54,9 +54,13 @@ div>p:first-child {
 }
 
 
-.icone {
-    height: 15px;
+
+.lupa{
+    width: 1.4%;
+    vertical-align: middle;
+    margin-left: 5px;
 }
+
 
 .container-para-comprar p{
     display: block;
@@ -141,9 +145,8 @@ td button {
 
 .container-do-search {
     margin-top: 20px;
-    height: 100px;
+    height:100px;
 }
-
 
 #back-button {
     background-color: white;
