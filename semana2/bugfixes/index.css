@@ -39,12 +39,20 @@ div>p:first-child {
     width: 250px;
     height: 40px;
     border-radius: 5px;
+    border: none;
+    text-decoration: none;
     font-size: 20px;
     color: white;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
 }
 
 .botao-amarelo:hover {
-    background-color: #c44f00;
+    background-color: #333;
 }
 
 .container {
@@ -53,8 +61,6 @@ div>p:first-child {
     text-align: center;
 }
 
-
-
 .lupa{
     width: 1.4%;
     vertical-align: middle;
@@ -62,23 +68,21 @@ div>p:first-child {
 }
 
 
-.container-para-comprar p{
-    display: block;
-}
-
-.botao-amarelo {
-    justify-content: center;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
 
 /** 
   *
   *  ESTILOS HOME 
   *
   **/
+
+
+#container-para-comprar{
+    height: 350px;
+}
+
+#container-para-comprar p{
+    display: block;
+}
 
 #container-de-descricao {
     background-color: #2274a5;
@@ -107,6 +111,10 @@ div>p:first-child {
     font-size: 60px;
 }
 
+ol li{
+    list-style-type: decimal;
+}
+
 
 /**
   *
@@ -122,6 +130,7 @@ div:last-child {
 table {
     width: 60%;
     margin: 0 auto;
+    padding-bottom: 150px;
 }
 
 table tr td{
@@ -152,12 +161,15 @@ td button {
     background-color: white;
     width: 100px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid  #333;
     border-radius: 5px;
     font-size: 10px;
-    color: black;
+    color:  #333;
+    font-weight: bold;
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #333;
+    color: white;
+    font-weight: bold;
 }
