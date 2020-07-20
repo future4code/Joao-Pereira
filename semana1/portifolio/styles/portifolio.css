@@ -1,0 +1,141 @@
+/* RESET START */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* RESET END */
+
+/* CONTAINER START */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 70vh 15vh ;
+    grid-template-areas: "h h"
+                        "m m"
+                        "f f";
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:white;
+}
+
+/* HEADER START */
+header{
+    grid-area: h;
+    -webkit-filter: drop-shadow(10px 10px 10px #222222);
+    filter: drop-shadow(3px 1px 3px rgb(117, 16, 247));
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+
+nav ul{
+    margin-left: 60px;
+}
+
+nav ul li{
+    list-style: none;   
+    display: inline-block;
+    float: left;
+    line-height: 15vh;
+    padding: 0 25px;
+    margin-bottom: 0;
+    
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(117, 16, 247);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s; 
+    height: 60px;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #1e1e1e; 
+    border-bottom-width: 1px;  
+    color: #1e1e1e;
+}
+/* HEADER END */
+
+/* MAIN START */
+main{
+    background-color:white;
+    grid-area: m;
+}
+
+/* GRID START */
+
+.grid-container {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;    
+}
+
+
+.grid-container > div{
+    background:rgb(117, 16, 247);
+}
+
+.box{
+    border-radius:20px;
+    height: 200px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container img {
+    padding-top:15px;
+    width: 290px;
+    height: 180px;
+    border-radius: 25px;
+}
+
+
+
+
+
+/* GRID END */
+
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer{
+    background-color:  #1e1e1e;;
+    color: white;
+    grid-area: f;
+}
+
+footer p{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5.5vh;
+    letter-spacing: 1px;
+}
+
+/* FOOTER END */
+
+/* CONTAINER END */
+
