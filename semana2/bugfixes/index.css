@@ -59,6 +59,17 @@ div img {
     height: 15px;
 }
 
+.container-para-comprar p{
+    display: block;
+}
+
+.botao-amarelo {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /** 
   *
