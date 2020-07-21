@@ -1,0 +1,198 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 40%;
+    margin-left:40px ;
+}
+
+div>p:first-child {
+    display: inline-block;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+    outline-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.botao-amarelo:hover {
+    background-color: #333;
+}
+
+.container {
+    padding-top: 50px;
+    height: 500px;
+    text-align: center;
+}
+
+.lupa{
+    width: 1.4%;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+
+#container-para-comprar{
+    height: 350px;
+}
+
+#container-para-comprar p{
+    display: block;
+}
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    padding-top:50px;
+}
+
+#container-de-descricao p{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#container-de-descricao>ol {
+    padding: 20px 0px;
+    list-style-position: outside;
+    display: inline-block;
+    text-align: center;
+    list-style-type: decimal;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 50px 0;
+    font-size: 60px;
+}
+
+ol li{
+    padding-inline-start: 30px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 150px;    
+}
+
+table td{
+    align-items: center;
+    justify-content: center;  
+}
+
+table tr td{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+table td img{
+    align-items: middle;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    outline-style: none;
+}
+
+td button:hover{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height:100px;
+}
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid  #333;
+    border-radius: 5px;
+    font-size: 10px;
+    color:  #333;
+    font-weight: bold;
+    outline-style: none;
+}
+
+#back-button:hover {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
