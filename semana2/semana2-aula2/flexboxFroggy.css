@@ -142,10 +142,10 @@
 
 #pond24 {
     display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: wrap-reverse;
-  justify-content:center;
-  align-content:space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content:center;
+    align-content:space-between;
 }
 
 
