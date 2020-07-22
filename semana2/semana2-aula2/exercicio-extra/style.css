@@ -8,35 +8,50 @@
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
     
 }
 
 .container{
     display:block;
-    width: 100%;
-    height: 100vh;
 }
 
 /* NAV START */
 
 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 20vh;
+    height: 12vh;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
 }
 
 .nav-bar{
     display: flex;
+    width: 100%;;
     justify-content: space-between;
     align-items: center;
     margin-right: 30px;
     margin-left: 30px;
 }
 
+.logo{
+    width: 25%;
+}
+
+.form{
+    width: 45%;
+}
+
+.icons{
+    width: 30%;
+}
+
 .logo img{
-    height: 45px;
-    width: 50px;
+    height: 40px;
+    width: 52px;
 }
 
 input[type=text] {
@@ -48,20 +63,21 @@ input[type=text] {
     background-color: rgb(232,231,231);
     font-size: 18px;
     letter-spacing: 1px;
+    margin-right: 50px;
 }
 
 .icons button{
     background-color: rgb(232,231,231);
     border: 1px solid rgb(232,231,231);
-    color: black;
+    color:#3b3b3b;
     outline: none;
     border-radius: 6px;
-    margin: 10px;
-    padding: 8px 20px;
+    
+    padding: 9px 20px;
     text-transform: uppercase;
     font-weight: bold;
     transition: 0.3s;
-    letter-spacing: 1px;
+    
 }
 .icons button:hover{
     background-color: #3b3b3b;
@@ -77,7 +93,11 @@ input[type=text] {
 
 /* NAV END */
 
-/* MAIN END */
+/* MAIN START */
+
+main{
+    margin-top: 10px;
+}
 
 .grid-container{
     display: grid;
@@ -115,6 +135,7 @@ input[type=text] {
     padding-bottom: 15px;
     padding-top: 10px;
     color: rgb(165, 165, 165);
+    text-align: center;
 }
 
 .grid-item-a h4{
@@ -124,6 +145,7 @@ input[type=text] {
     padding-top: 10px;
     color:  black;
     font-weight: normal;
+    text-align: center;
 }
 
 .grid-item-a ul li{
@@ -132,6 +154,115 @@ input[type=text] {
     padding: 5px;
     padding-left: 10px;
 }
+
+/* GRID SUB-TITLE START */
+
+.grid-sub-title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub-title-img{
+    width: 60px;
+    height: 60px;
+}
+
+.sub-title-g{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.sub-title-g h4{
+    justify-content: left;
+    grid-column: 1;
+    grid-row: 1;
+}
+.sub-title-g p{
+    font-size: 13px;
+    font-style: italic;
+    justify-content: left;
+    grid-column: 2;
+    grid-row: 1;
+    float: left;
+}
+.sub-title-g ul{
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.sub-title-g ul li{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+}
+
+img#seattle{
+    width: 100%;
+}
+
+/* GRID SUB-TITLE END */
+
+/* FLEX-BOX START */
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    margin-left: 40px;
+}
+
+div.flex-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+}
+
+img#comment{
+    width: 40%;
+}
+
+img#reaction{
+    width: 40%;
+}
+button#save{
+    margin-left: 420px;
+    background-color: rgb(232,231,231);
+    border: 1px solid rgb(232,231,231);
+    color:#3b3b3b;
+    outline: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#save:hover{
+    margin-left: 420px;
+    background-color: #3b3b3b;
+    border: 1px solid  #3b3b3b;
+    color:white;
+}
+
+span#reactions{
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+/* FLEX-BOX END */
+
 /* GRID A END */
 
 /* GRID B START */
@@ -141,10 +272,22 @@ input[type=text] {
     margin-right: 10px;
     margin-left: 10px;
 }
+.grid-item-b img{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 85%;
+}
 
 .grid-box{
     border: 1px solid rgb(232,231,231);
+}
 
+.grid-item-b h1{
+    margin-right: 70px;
+    margin-left: 70px;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 40px;
 }
 
 .grid-item-b ul li{
@@ -173,6 +316,7 @@ input[type=text] {
     padding: 5px 15px;
     transition: 0.4s;
     letter-spacing: 1px;
+
 }
 
 .flex-menu-1:hover,
@@ -184,6 +328,11 @@ input[type=text] {
     background-color: white;
     border: 1px solid  rgb(18,17,48);
     color:  rgb(18,17,48);   
+
+}
+
+.flex-box{
+    display: flex;
 }
 
 /* GRID B END */
@@ -254,6 +403,10 @@ input[type=text] {
     margin: 10px;
     font-size: 16px;
     letter-spacing: 0.5px;
+}
+
+#twitter button:hover{
+    background-color: rgb(0, 125, 202);
 }
 
 /* GRID C END  */
