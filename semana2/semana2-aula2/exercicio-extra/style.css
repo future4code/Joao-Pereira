@@ -8,8 +8,6 @@
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 100vh;
-    
 }
 
 .container{
@@ -97,6 +95,7 @@ input[type=text] {
 
 main{
     margin-top: 10px;
+    height: 88vh;
 }
 
 .grid-container{
@@ -177,6 +176,7 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr;
     align-items: center;
+    justify-items: center;
     padding-left: 25px;
 }
 
