@@ -38,11 +38,23 @@ input {
     background-color: white;
     color: black;
     outline: none;
+    box-shadow: 0 0 0 0;
+    border: none;
+}
+
+.right-nav a {
+    color: orangered;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid orangered;
+    font-weight: bold;
+    padding: 4.5px 10px;
+    border-radius: 30px;
 }
 
 /* NAV BAR END */
 
-/* GRID START */
+/* MAIN START */
 
 .container{
     padding: 10px;
@@ -52,25 +64,27 @@ input {
 }
 
 .sub-container{
+    display: block;
     width: 70%;
     margin: 0 auto;
 }
 
 .sub-container h4{
+    justify-content: center;
     color: black;
-    padding: 10px;
-    width: 80%;
-    height: 1em;
+    padding-top: 10px;
+    height: 2em;
     font-style: normal;
     text-transform: capitalize;
 }
 
 video{
-    padding: 10px;
-    width:
+    width: 80%;
+    height: 450px;
+    outline: none;
 }
 
-/* GRID END */
+/* MAIN END */
 
 /* FOOTER START */
 
@@ -84,7 +98,7 @@ footer{
 }
 
 footer p{
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 10px;
     font-weight: bold;
 }

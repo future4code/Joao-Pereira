@@ -33,11 +33,12 @@ nav{
 }
 
 input {
-    border: 1 solid white;
     padding: 5px 10px;
     background-color: white;
     color: black;
     outline: none;
+    box-shadow: 0 0 0 0;
+    border: none;
 }
 
 /* NAV BAR END */
@@ -60,6 +61,7 @@ input {
 
 img{
     width: 100%;
+    height: 80%;
 }
 
 .grid-item p{
@@ -82,7 +84,7 @@ footer{
 }
 
 footer p{
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 10px;
     font-weight: bold;
 }
