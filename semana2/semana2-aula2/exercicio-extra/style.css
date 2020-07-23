@@ -14,6 +14,8 @@ body{
 
 .container{
     display:block;
+    align-items: center;
+    justify-content: center;
 }
 
 /* NAV START */
@@ -96,7 +98,10 @@ input[type=text] {
 /* MAIN START */
 
 main{
+    display: block;
     margin-top: 10px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .grid-container{
@@ -104,8 +109,6 @@ main{
     grid-template-rows: 26vh 26vh 26vh;
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-evenly;
-    margin-left: 65px;
-    margin-right: 65px;
 }
 
 .grid-item-a{
