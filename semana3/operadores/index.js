@@ -54,11 +54,68 @@ let emailDoUsuario = prompt('Qual o seu email?');
 console.log(`O email ${emailDoUsuario} foi cadastrado com sucesso. Seja bem vinda(o), ${nomeDoUsuario}`);
  */
 
+
+
+
+
+
+
+
+
+
+// FAVOR RELEVAR O DESAFIO EXTRA 1 - EMPOLGUEI AQUI E FIZ PARA CONVERTER DE QQ TIPO DE UNIDADE DE TEMPERATURA.
+
+
+
+
+
+
+
+
 // DESAFIO EXTRA 1
 
+/* let measure_in = prompt("De (celsius / fahrenheit / kelvin)");
+let temp = prompt("Digite o valor de temperatura que deseja converter:");
+temp = Number(temp);
+
+   if (measure_in == "celsius") {
+         let measure_out = prompt("Para (fahrenheit / kelvin)");
+         if (measure_out == "kelvin"){
+            kelvin = temp + 273.15;
+            console.log(`A temperatura é ${kelvin}K`);
+         }
+         else{
+            fahrenheit = temp*9/5 + 32;
+            console.log(`A temperatura é ${fahrenheit}ºF`);
+         }
+   } else if (measure_in == "fahrenheit") {
+      let measure_out = prompt("Para  (celsius / kelvin)");
+      if (measure_out =="celsius"){
+         celsius = (temp - 32) * 5/9;
+         console.log(`A temperatura é ${celsius}ºC`);
+      }
+      else {
+         kelvin = (temp - 32)*5/9 + 273.15;
+         console.log(`A temperatura é ${kelvin}K`);
+      }
+   }
+   else {
+      let measure_out = prompt("Para (celsius / fahrenheit)");
+      if (measure_out == "celsius"){
+         celsius = temp - 273.15;
+         console.log(`A temperatura é ${celsius}ºC`);
+      } 
+      else {
+         fahrenheit = ((temp - 273.15)*9/5)+32;
+         console.log(`A temperatura é ${fahrenheit}ºF`);
+      }
+
+   }  */
 
 
 
+
+   
 // DESAFIO EXTRA 2
 
 /* const value = 0.05;
@@ -78,5 +135,21 @@ console.log(`Preço a ser pago pela residência que consumiu 280KW/h é: ${price
 // DESAFIO 3
 
 let kg = 20*0.4536;
-console.log(`20lb equivalem a ${kg} kg`)
+console.log(`20lb equivalem a ${kg} kg`);
+
+let oz = 10.5 * 35.274;
+console.log(`10.5oz equivalem a ${oz} kg`);
+
+let milha = 100* 0.00062137;
+console.log(`100milha equivalem a ${milha} m`);
+
+let pe = 50* 0.3048;
+console.log(`50ft equivalem a ${pe} m`);
+
+let gal = 103.56* 3.79;
+console.log(`50gal equivalem a ${gal} m`);
+
+let xic = 450* 0.24;
+console.log(`450xic equivalem a ${xic} l`);
+
 
