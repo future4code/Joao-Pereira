@@ -115,7 +115,36 @@ function tamanhoArray(array){
 
 console.log(tamanhoArray([0,1,2,3,4,5,6]))
 
+d)
 */
+const array = [0,1,2,3,4,5,6]
+let pares = []
+
+function numeroPar(num){
+    if (num % 2 == 0){
+        par = true
+    }
+    else{
+        par = false
+    }
+    return par
+}
+
+function tamanhoArray(array){
+    for (let i=0; i<array.length; i++){
+        if (numeroPar(array[i]) == true){
+            pares.push(array[i])
+        }
+    }
+    tamanho = pares.length
+    return tamanho
+}
+
+console.log(tamanhoArray(array))
+
+
+
+
 
 
 
