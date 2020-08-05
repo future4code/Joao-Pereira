@@ -20,6 +20,7 @@ header {
     margin-bottom: 15px;
 }
 body{
+    font-family: 'Poppins', sans-serif;;
     width: 100%;
 }
 
@@ -127,63 +128,72 @@ ul li{
 @media screen and (min-device-width: 320px) and (max-device-width:420px){
     header {
         font-size: 0.9em;
-        height: 19vh;
-        display: block;
-        justify-content: space-evenly;
+        height: 15vh;
         padding: 0px 10px 0px 10px;
         align-items: center;
-        
         margin-bottom: 0px;
     }
     body{
         width: 100%;
     }
 
-    form{
-        margin-top:10px;
-        margin-bottom: 10px;
-    }
     
     input {
         display: inline-block;
         width: 250px;
-        margin: 5px 5px 5px 5px;
+        margin: 1px 0px 5px 0px;
         outline: none;
-        font-size: 0.9em;
         border: none;
         border-radius: 50px;
         background-color: rgb(240, 240, 240);
     }
     
     #dias-semana {
-        display: inline-block;
         font-size: 0.8em;
-        align-self:center;
+        margin: 0px;
     }
     
     #dia-hora {
-        display: inline-block;
         font-size: 0.8em;
-        align-self:center;
+        margin: 0px;
     }
     
     .flex-item{
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         align-content: center;
         justify-content: center;
     }
 
     section{
+        margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        align-content: space-around;
         height: 100%;
     }
 
     button{
         display: inline-block;
         font-size: 0.8em;
+    }
+
+    #criar{
+        margin-bottom: 5px;
+
+    }
+    #limpar{
+        margin-top: 5px;
+    }
+
+    .semana {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .semana-lista{
+        text-align: center;
     }
 
 }
