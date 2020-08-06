@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlador de Despesas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <section class="container">
+        <div class="controller">
+            <h1>Controlador de Despesas</h1>
+            <h2>Cadastrar despesa</h2>
+            <label for="price">Valor:</label>
+            <input type="number" name="price" id="price">
+            <label for="type">Tipo:</label>
+            <select name="type" id="type">
+                <option value="casa">Casa</option>
+                <option value="viagem">Viagem</option>
+                <option value="Rolê">Rolê</option>
+                <option value="Outros">Outros</option>    
+            </select>
+            <label for="describe">Descrição</label>
+            <textarea name="describe" id="describe" cols="40" rows="1"></textarea>
+            <button onclick="createExpense(event)">Cadastrar despesa</button>
+        </div>
+        <div class="detail">
+            <h1>Despesas Detalhadas</h1>
+            <label for="type">Tipo:</label>
+            <select name="type" id="type">
+                <option value="casa">Casa</option>
+                <option value="viagem">Viagem</option>
+                <option value="Rolê">Rolê</option>
+                <option value="Outros">Outros</option>    
+            </select>
+
+            <label for="price-min">Valor Mínimo:</label>
+            <input type="number" name="price-min" id="price-min">
+            <label for="price-max">Valor Mínimo:</label>
+            <input type="number" name="price-max" id="price-max">
+
+            <button id="filter">Filtrar</button>
+            <button id="clear-filter">Limpar</button>
+        </div>
+        <div class="total">
+            <h1>Extrato</h1>
+            <h2>Valor total:</h2>
+            <p></p>
+        </div>
+        
+        
+    </section>    
+</body>
+</html>
