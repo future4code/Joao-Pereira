@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlador de Despesas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <section class="container">
+        <section class="main">
+            <div class="controller">
+                <h1>Cadastrar despesa</h1>
+                <label for="price">Valor:</label>
+                <input type="number" name="price" id="price">
+                <label for="type-ctrl">Tipo:</label>
+                <select name="type-ctrl" id="type-ctrl">
+                    <option value="casa">Casa</option>
+                    <option value="viagem">Viagem</option>
+                    <option value="Rolê">Rolê</option>
+                    <option value="Outros">Outros</option>    
+                </select>
+                <label for="describe">Descrição</label>
+                <textarea name="describe" id="describe" cols="40" rows="1"></textarea>
+                <button onclick="createExpense(event)">Cadastrar despesa</button>
+            </div>
+            <div class="detail">
+                <h1>Filtrar Despesa</h1>
+                <label for="type-detail">Tipo:</label>
+                <select name="type-detail" id="type-detail">
+                    <option value="casa">Casa</option>
+                    <option value="viagem">Viagem</option>
+                    <option value="Rolê">Rolê</option>
+                    <option value="Outros">Outros</option>    
+                </select>
+    
+                <label for="price-min">Valor Mínimo:</label>
+                <input type="number" name="price-min" id="price-min">
+                <label for="price-max">Valor Máximo:</label>
+                <input type="number" name="price-max" id="price-max">
+    
+                <button id="filter" onclick="filterType(event)">Filtrar</button>
+                <button id="clear-filter">Limpar</button>
+            </div>
+            <div class="total">
+                <h1>Extrato</h1>
+                <p id="total"></p>
+            </div>
+        </section>
+        <section class="posts">
+            <div class="expenses">
+                <h1>expenses</h1>
+                <div id="post-expenses">
+    
+                </div>
+            </div>
+            <div class="filter">
+                <h1>filter</h1>
+                <div id="post-filter"></div>
+            </div>
+        </section>       
+
+        
+    </section>    
+</body>
+</html>
