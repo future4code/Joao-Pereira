@@ -162,5 +162,41 @@ future()
 
 
 // -------------------------------------- Exercícios de Objetos ----------------------------------- 
+1. 
+Array: é uma lista de elementos
+Objetos: conjunto de pares chave / valor
 
+2.
+
+function criaRetangulo(x,y){
+    const retangulo = {
+        largura : x,
+        altura : y,
+        perimetro: (2*(x+y)),
+        area: x*y
+    }
+    return retangulo
+}
+console.log(criaRetangulo(3,3))
+
+3.
+
+function criaFavorito(titulo, ano, diretor, atores){
+    const favorito = {
+        titulo: titulo,
+        ano: ano,
+        diretor: diretor,
+        ator: atores,
+    }
+    console.log(`Venha assistir ao filme ${favorito.titulo}, de ${favorito.ano}, dirigido por ${favorito.diretor} e estrelado por ${favorito.ator}`)
+}
+
+criaFavorito("Velozes e Furiosos", 2001,"Rob L. Cohen",["Vin Diesel"," Paul Walker"," Michelle Rodriguez"," Jordana Brewster"])
+
+4.
 */
+
+
+
+
+
